@@ -1,0 +1,23 @@
+{
+    "name": "heroseven/curso-platzi",
+    "description": "Proyecto php en Platzi",
+    "type": "project",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Stephan",
+            "email": "nbr920@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^5.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "PlatziPHP\\":"src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    }
+}
